@@ -1,0 +1,8 @@
+{"_id":{"$oid":"60cb38c2c26b7b1face4317a"},"devices":["device0002","device0003","device0007","device0120","device0022","device0010"],"name":"admin1","password":"1q1q1q","phone":"18786009981","email":"1@1.com","__v":0}
+{"_id":{"$oid":"60d1bfa2c26b7b1face435d7"},"devices":["device0001","device0042","device0047","device0021","device0023","device0039"],"name":"想吃蛋塔的蛮鱼","password":"1q1q1q","phone":"18786009980","email":"3180105574@zju.edu.cn","__v":0}
+{"_id":{"$oid":"60d5b6bcc26b7b1face43c72"},"devices":["device0002","device0004","device0052","device0079","device0100","device0001"],"name":"想吃蛋挞的蛮鱼","password":"1q1q1q","phone":"18786009982","email":"3180105574@zju.edu","__v":0}
+{"_id":{"$oid":"60d946498ae42802e26b3618"},"devices":[],"name":"newuser","password":"101010q","phone":"18786009988","email":"318010557@zju.edu.cn","__v":0}
+{"_id":{"$oid":"60d946d78ae42802e26b3619"},"devices":["device0004"],"name":"大蛮鱼0216","password":"1q1q1q","phone":"18786009987","email":"1@11.com","__v":0}
+{"_id":{"$oid":"60d947278ae42802e26b361a"},"devices":[],"name":"admin2","password":"1q1q1q","phone":"18786009989","email":"1@111.com","__v":0}
+{"_id":{"$oid":"60d94b5c8ae42802e26b361b"},"devices":["device0004","device0022","device0101"],"name":"tester","password":"101010q","phone":"18893819201","email":"123@qq.com","__v":0}
+{"_id":{"$oid":"60d99028c2da8720b9c8d177"},"devices":[],"name":"软工课写BS","password":"1q1q1q","phone":"18786009999","email":"1@111.co","__v":0}
