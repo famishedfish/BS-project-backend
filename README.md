@@ -17,6 +17,18 @@ Install `mongodb`:
 brew install mongodb-community@4.2
 ```
 
+Create a database using the table file:
+
+```bash
+mongoimport -d eIoT -c datas --file /mongodump/datas.json --type json
+```
+```bash
+mongoimport -d eIoT -c devices --file /mongodump/devices.json --type json
+```
+```bash
+mongoimport -d eIoT -c users --file /mongodump/users.json --type json
+```
+
 Install `mosquitto`:
 
 ```bash
