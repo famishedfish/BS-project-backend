@@ -47,7 +47,7 @@ brew services start mongodb-community@4.2
 ### Start MQTT server
 
 ```bash
-brew install mosquitto
+brew services start mosquitto
 ```
 
 
@@ -59,6 +59,9 @@ node bin/www
 
 ### start analog iot devices
 
+* Modify iotclient/target/iot.properties (optional)
+
 ```bash
-java -jar analog_terminal/target/iotclient-1.0.0.jar
+java -jar iotclient/target/iotclient-1.0.0.jar
 ```
+

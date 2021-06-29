@@ -9,16 +9,4 @@ router.post('/fetch', async function (req, res, next) {
   })
 });
 
-router.post('/insert', async function (req, res, next) {
-  const { title, tag, date, image, article_content } = req.body;
-  const doc = await db.articleModel({ title, tag, date, image, article_content, likes: 0 }).save();
-  if (doc) {
-    console.log(doc)
-    return res.json({
-      code: 200,
-      msg: "success",
-    })
-  }
-});
-
 module.exports = router;
